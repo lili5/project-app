@@ -1,0 +1,81 @@
+h1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: lightslategray;
+}
+
+ul {
+  margin-top: -34px;
+  padding: 0;
+}
+
+li {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  font-size: large;
+  color: lightslategray;
+  list-style: none;
+}
+
+.units a {
+  text-decoration: none;
+}
+
+.container {
+  width: 800px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 60px 80px 140px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.weather-forecast-container {
+  margin-top: 82px;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  font-size: medium;
+  color: lightslategray;
+}
+
+.weather-forecast-icon {
+  margin-top: 30px;
+  margin-left: -12px;
+}
+
+.weather-forecast-temperature {
+  margin-top: 30px;
+}
+
+.sun-icon {
+  font-size: 50px;
+  color: gold;
+}
+
+.cloud-sun-icon {
+  color: lightblue;
+  font-size: 50px;
+}
+
+.cloud-icon {
+  color: lightskyblue;
+  font-size: 48px;
+}
+
+.cloud-rain-icon {
+  color: lightsteelblue;
+  font-size: 50px;
+}
+
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+}
+
+.footer {
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 55px;
+  margin-bottom: -100px;
+}
