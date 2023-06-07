@@ -30,12 +30,27 @@
             <div class="col-3 p-0"><input type="submit" 
               class="btn btn-primary" value="Search"></div></div></form>
               <h1 id="city"></h1>
-              <ul>
-                <li id="date"></li>
+              <li id="date"></li>
                 <li id="description"></li>
-                <span id="temperature"></span>
-                <span class="units">°C</span>
+                <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img src="" alt="Clear" id="icon" class="float-left" />
+                <div class="float-left">
+                <strong id="temperature"></strong>
+                <span class="units"> <a href="#" id="celsius-link" class="active">°C |</a>
+              <a href="#" id="fahrenheit-link">°F</a></span>
+               </div>
+             </div>
+            </div>
+            <div class="row">
+            <div class="col-9">
+              <ul>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
+               </div>
+            </div>
       <div class="weather-forecast-container">
       <div class="weather-forecast-day">
       <div class="row">
