@@ -48,7 +48,8 @@ li {
 }
 
 .weather-forecast-container {
-  margin-top: 82px;
+  margin-top: -20px;
+  margin-bottom: 30px;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   font-size: medium;
   color: lightslategray;
