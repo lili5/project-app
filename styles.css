@@ -16,6 +16,10 @@ li {
   list-style: none;
 }
 
+li strong {
+  color: #b153bc;
+}
+
 .weather-temperature img {
   margin-left: -30px;
 }
@@ -40,14 +44,14 @@ li {
 
 .container {
   width: 800px;
-  margin-top: 50px;
+  margin-top: 38px;
   padding: 60px 80px 180px;
   background: #ffffff;
   border-radius: 20px;
 }
 
 .weather-forecast-container {
-  margin-top: -20px;
+  margin-top: -80px;
   margin-bottom: 30px;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   font-size: medium;
@@ -62,8 +66,9 @@ li {
 }
 
 .weather-forecast-icon {
-  margin-top: 30px;
-  margin-left: -12px;
+  text-align: center;
+  font-size: 38px;
+  margin-top: 16px;
 }
 
 .weather-forecast {
@@ -74,17 +79,16 @@ li {
 
 .weather-forecast-temperatures {
   text-align: center;
-  margin-top: 18px;
-  margin-bottom: 20px;
+  margin-top: 16px;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   font-size: medium;
-  color: rgb(109, 166, 223);
+  color: #b153bc;
   display: flex;
   justify-content: center;
 }
 
 .weather-forecast-temperature {
-  margin-top: 30px;
+  padding: 0 10px;
 }
 
 body {
