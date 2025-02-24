@@ -52,10 +52,10 @@ li strong {
 
 .weather-forecast-container {
   margin-top: -80px;
-  margin-bottom: 30px;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   font-size: medium;
   color: lightslategray;
+  display: flex;
 }
 
 .weather-forecast-day {
@@ -102,6 +102,6 @@ body {
 .footer {
   font-size: 14px;
   text-decoration: none;
-  margin-top: 80px;
+  margin-top: 68px;
   margin-bottom: -240px;
 }
