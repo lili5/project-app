@@ -80,6 +80,7 @@ li strong {
 .weather-forecast-temperatures {
   text-align: center;
   margin-top: 16px;
+  margin-bottom: 66px;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   font-size: medium;
   color: #b153bc;
